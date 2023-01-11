@@ -14,4 +14,10 @@ body {
 .para {
     font-family: var(--primary-font-family);
     font-size: 1rem;
+   margin-left: 2rem;
+   
+}
+.heading {
+    display: inline;
+    padding: 1rem;
 }
