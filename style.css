@@ -3,21 +3,38 @@ html {
     --secondary-color: rgb(0, 235, 184);
 
     --primary-font-family:'Montserrat', sans-serif;
+    --secondary-font-family: 'Lexend', sans-serif;
      
 }
 
 body {
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
+margin: 0px;
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
+}
+
+.hero-heading {padding-left:2rem ;
+    margin-bottom: 0px;
+   font-family: var(--secondary-font-family);
+   font-size: 40px;
+   letter-spacing: -2px;
 }
 
 .para {
     font-family: var(--primary-font-family);
     font-size: 1rem;
    margin-left: 2rem;
+   margin-top: 8px;
    
 }
+
 .heading {
     display: inline;
     padding: 1rem;
+}
+
+.header-1 {
+    background-color: var(--secondary-color);
+    padding: 1rem 0rem;
 }
