@@ -10,6 +10,8 @@ body {
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
 
 }
+
 .hero-heading {
     font-family: var(--primary-font-family);
+    font-variant-caps: all-petite-caps;
 }
