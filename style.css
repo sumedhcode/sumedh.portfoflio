@@ -11,3 +11,7 @@ body {
 
 }
 
+.para {
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+}
