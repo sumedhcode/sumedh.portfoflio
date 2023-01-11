@@ -1,4 +1,15 @@
-html{ 
+html { 
     --primary-color: rgb(120, 37, 197);
     --secondary-color: rgb(0, 235, 184);
+
+    --primary-font-family:'Montserrat', sans-serif;
+     
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
+
+}
+.hero-heading {
+    font-family: var(--primary-font-family);
 }
