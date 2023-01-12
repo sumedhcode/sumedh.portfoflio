@@ -4,7 +4,7 @@ html {
 
     --primary-font-family:'Montserrat', sans-serif;
     --secondary-font-family: 'Lexend', sans-serif;
-     
+     --font-letter-spacing: -2px;
 }
 
 body {
@@ -14,6 +14,15 @@ margin: 0px;
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
 
 
+}
+.heading {
+    display: inline;
+    padding: 1rem;
+}
+
+.header-1 {
+    background-color: var(--secondary-color);
+    padding: 1rem 2rem;
 }
 
 
@@ -32,12 +41,18 @@ margin: 0px;
    
 }
 
-.heading {
-    display: inline;
-    padding: 1rem;
+.primary-link{
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+   margin-left: 2rem;
+   margin-top: 40px;
+   margin-left: 8px;
+   margin-bottom: 40px;
+   margin-right: 8px;
+   margin-block: 10px;
+   margin-inline: 10px;
+
 }
 
-.header-1 {
-    background-color: var(--secondary-color);
-    padding: 1rem 2rem;
-}
+
+
