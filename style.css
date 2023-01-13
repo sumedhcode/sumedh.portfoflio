@@ -32,3 +32,28 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+.list-unordered {
+    list-style: none;
+}
+.list-inline-items {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+}
+.navigation .nav-brand {
+    font-weight: bold;
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+.navigation .link {
+    color: whitesmoke;
+}
+.navigation .link-active {
+    font-weight: bold;
+}
