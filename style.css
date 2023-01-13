@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&family=Lexend:wght@600&family=Montserrat:wght@700&family=Raleway:wght@500&family=Roboto:wght@500&display=swap');
 
+html {
+    --primary-color: rgb(113, 33, 145);
+}
 body {
     font-family: 'Raleway', sans-serif;
    
@@ -11,4 +14,13 @@ body {
 .container-centre {
     max-width: 600px;
     margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color:var(--primary-color) ;
+    color: white;
+    border-radius:0.5rem ;
 }
