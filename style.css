@@ -7,6 +7,9 @@ body {
     font-family: 'Raleway', sans-serif;
    
 }
+hr {
+    margin: 2rem 0rem;
+}
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -23,4 +26,9 @@ body {
     background-color:var(--primary-color) ;
     color: white;
     border-radius:0.5rem ;
+}
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
 }
