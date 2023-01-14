@@ -2,11 +2,12 @@
 
 html {
     --primary-color: rgb(113, 33, 145);
-    --off-white-color: rgb(208, 208, 208);
+    --off-white-color: rgb(223, 222, 222);
     
 }
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
    
 }
 hr {
@@ -69,6 +70,7 @@ hr {
 }
 .hero .hero-heading {
     padding-top: 1rem;
+    text-align: center;
 }
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
@@ -81,4 +83,17 @@ hr {
 }
 .ow {
     background-color: var(--off-white-color);
+}
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer .link {
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
