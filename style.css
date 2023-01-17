@@ -24,11 +24,14 @@ hr {
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-align: center;
 }
 .link-primary {
     background-color:var(--primary-color) ;
     color: white;
     border-radius:0.5rem ;
+   
+   
 }
 .link-secondary {
     color: var(--primary-color);
@@ -97,3 +100,9 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
+
+.footer .footer-header {
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
