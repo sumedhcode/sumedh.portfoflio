@@ -29,7 +29,9 @@ hr {
 .link-primary {
     background-color:var(--primary-color) ;
     color: white;
-    border-radius:0.5rem ; 
+    border-radius:0.5rem ;
+    display: inline-block;
+    margin-top: 0px;
 }
 
 .link-secondary {
